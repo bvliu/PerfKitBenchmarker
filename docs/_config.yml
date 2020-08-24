@@ -24,7 +24,7 @@ search_enabled: true
 # Aux links for the upper right navigation
 aux_links:
   "PKB on GitHub":
-    - "//github.com/GoogleCloudPlatform/PerfKitBenchmarker"
+    - "github.com/GoogleCloudPlatform/PerfKitBenchmarker"
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: light
