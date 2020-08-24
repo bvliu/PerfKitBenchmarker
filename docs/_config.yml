@@ -10,8 +10,8 @@ title: PerfKitBenchmarker
 email: liubrandon@google.com
 description: >
   PerfKitBenchmarker home page.
-baseurl: "/PerfKitBenchmarker"
-url: "http://www.perfkitbenchmarker.org" # the base hostname & protocol
+# baseurl: "/PerfKitBenchmarker"
+# url: "http://www.perfkitbenchmarker.org" # the base hostname & protocol
 
 # See https://pmarsceill.github.io/just-the-docs/.
 # theme: "just-the-docs"
