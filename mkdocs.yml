@@ -1,0 +1,56 @@
+site_name: PerfKitBenchmarker
+site_description: PerfKitBenchmarker home page.
+site_url: https://googlecloudplatform.github.io/PerfKitBenchmarker/
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+  logo: img/pkb-logo.svg
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Configuration: configuration.md
+  - Benchmarks & Licensing: benchmarks.md
+  - Publishers: publishers.md
+  - Tutorials: tutorials.md
+  - Advanced: advanced.md
+  - Internal Blueprint (Wiki):
+      - Roadmap: internal/roadmap.md
+      - Contribution Standards: internal/contribution-standards.md
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/GoogleCloudPlatform/PerfKitBenchmarker

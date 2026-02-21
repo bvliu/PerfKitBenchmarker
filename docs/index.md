@@ -1,52 +1,28 @@
+# PerfKit Benchmarker User Manual
+
+Welcome to the official documentation for PerfKit Benchmarker (PKB). This site is designed to help you navigate the tool, from your first benchmark to advanced configurations.
+
+## Getting Started
+
+If you are new to PKB, start with these guides:
+
+- **[Installation](installation.md)**: Setup PKB on your local machine or in a container.
+- **[Basic Usage](usage.md)**: Learn how to run your first benchmark on various cloud providers.
+- **[Tutorials](tutorials.md)**: Step-by-step walkthroughs for common scenarios.
+
+## Advanced Documentation
+
+For deeper dives into PKB's capabilities:
+
+- **[Configuration](configuration.md)**: Understanding YAML configs and flag overrides.
+- **[Benchmarks & Licensing](benchmarks.md)**: Detailed list of supported benchmarks and their licenses.
+- **[Publishers](publishers.md)**: How to export results to Elasticsearch or InfluxDB.
+- **[Advanced Topics](advanced.md)**: Windows benchmarks, Juju, and non-cloud environments.
+
+## Contribution
+
+For information on how to contribute, please see our **[Internal Blueprint](internal/contribution-standards.md)** or the **[Roadmap](internal/roadmap.md)**.
+
 ---
-layout: default
-title: Home
-nav_order: 1
-description: "PKB Homepage."
-permalink: /
-last_modified_date: 2020-08-21T17:54:08+0000
----
 
-# Open source performance for clouds
-{: .fs-9 }
-
-PerfKitBenchmarker helps to measure and compare cloud offerings using a standard set of benchmarks.
-{: .fs-6 .fw-300 }
-
-[Get started now](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker/blob/master/README.md#installation-and-setup){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker){: .btn .fs-5 .mb-4 .mb-md-0 } [View it on Wikipedia](https://en.wikipedia.org/wiki/PerfKitBenchmarker){: .btn .fs-5 .mb-4 .mb-md-0 }
----
-
-# What is PerfKitBenchmarker?
-
-PerfKitBenchmarker (PKB) is an <b>open source</b> benchmarking tool used to
-measure and <b>compare cloud offerings</b>.  It is a community effort
-involving over 500 participants including researchers, academic institutions
-and companies together with the originator, Google. PKB reduces the complexity
-in running benchmarks on supported cloud providers with unified and simple
-commands. PKB measures the end to end time to provision resources in the cloud,
-in addition to reporting on the most standard metrics of peak performance,
-including: latency, throughput, time-to-complete, IOPS. PKB currently supports
-eight cloud providers: Google Cloud Platform, Amazon Web Services,
-DigitalOcean, Microsoft Azure, Rackspace, Kubernetes, OpenStack, AliCloud and
-local environment.
-
-# Where is it being used?
-
-*   [Cloud Network Performance Benchmarking](https://cloud.google.com/blog/products/networking/perfkit-benchmarker-for-evaluating-cloud-network-performance)
-*   [On-prem vs Cloud benchmarking](https://cloud.google.com/solutions/resource-mappings-from-on-premises-hardware-to-gcp#end-to-end_performance_benchmarking)
-*   [GCP VM Performance](https://cloud.google.com/compute/docs/benchmarks-windows?hl=no#how_google_creates_these_benchmarks)
-    and
-    [Comparisons](https://cloud.google.com/free/docs/measure-compare-performance)
-
-## Talk to us!
-
-You can open a GitHub issue
-[here](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker/issues/new).
-
-## Contributing
-
-Thanks to our
-[contributors](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker/graphs/contributors)!
-If you would like to contribute to PKB, please view
-[this](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker/blob/master/CONTRIBUTING.md)
-document.
+*Looking for the "Front Door"? Return to the [GitHub Repository](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker).*
