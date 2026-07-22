@@ -108,6 +108,18 @@ benchmark_spec.always_call_cleanup = True
 
 Inverse of Provision. Deletes resources that were created during provisioning.
 
+## Benchmarking Data
+
+Some benchmarks come with their own data set, others come with source scripts to
+run. These resources are placed in the /data directory.
+
+Additions to /data directory are organized by benchmarks.
+
+Large data sources and proprietary datasets cannot be added to the PKB source
+code. In order to use large source data, the benchmark can point to a
+proprietary GCS source using a preprovisioned data bucket. See above example for
+using preprovisioned data in a benchmark.
+
 ## Difference between PKB & Other Frameworks
 
 PKB is a benchmarking framework which provisions resources & runs benchmarks
@@ -185,3 +197,8 @@ resources. This has a couple of consequences:
     `Prepare` function, the third adds partials of `Run` function, the fourth
     adds the parsing of results etc.
 *   Add related unit tests.
+*   Avoid code duplication.
+*   Benchmark files should not contain provider specific code. If you find
+    yourself writing ‘if cloud == GCP’, then there is a good chance you are not
+    following best practices (see
+    [/providers](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker/tree/master/perfkitbenchmarker/providers/README.md)).
